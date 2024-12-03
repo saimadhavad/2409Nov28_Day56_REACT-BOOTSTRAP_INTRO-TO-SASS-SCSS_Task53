@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import "./services";
+
+$bgColor : #bdc3c7;
+$bglgColor : linear-gradient(to right, #bdc3c7, #2c3e50);
+$fontFamilyComfortaa : "Comfortaa", sans-serif;
+$fontWeight : 900;
+$secondaryColor :#2c3e50;
+$colorHover :#bdc3c7;
+
+* {
+    font-family: $fontFamilyComfortaa;
+    font-weight: $fontWeight;
+    font-style: normal;
+}
+body {
+    background: $bglgColor;
+    // font-family: $fontFamilyHachiMaruPop;
+    // font-weight: $fontWeight;
+    // font-style: normal;
+}
+
+.container {
+    // background: $bgColor;
+    margin: 10px auto;
+    width: 900px;
+    color: white;
+    padding: 10px;
+}
+
+// TOP HEADING STARTS
+.headingOne {
+    text-align: center;
+}
+// TOP HEADING ENDS
+
+//  NAV CSS STARTS
+.topNav,.serviceNav {
+    background: $secondaryColor;
+    margin: 5px;
+    ul { 
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        li {
+            display: inline-block;
+        }
+        a {
+            padding: 5px 25px;
+            max-width: 100%;
+            border-radius: 4px;            
+            border:0px;
+            color: white;
+            font-family: $fontFamilyComfortaa;
+            font-weight: $fontWeight;
+            text-decoration: none;
+        }
+        a:hover {
+            background: $colorHover;
+            color: black;
+            font-weight: 800;
+        }
+    }
+}
+//  NAV CSS ENDS
+
+// CAROUSEL CSS STARTS
+.carouselImg {
+    width: 100%;
+    height: 450px;
+}
+#carouselExampleAutoplaying {
+    padding: 5px;
+}
+// CAROUSEL CSS ENDS
+
+// SKILL CARDS CSS STARTS
+.skillCardDiv {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.cardsDiv{
+    border: 2px solid;
+    padding: 20px;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // text-align: center;
+}
+.skillCardDivImg {
+    max-width:75px;
+}
+.skillCardDiv {
+        a{
+            text-decoration: none;
+        }
+}
+
+// HTML CSS JS BOOTSTRAP - Mixins/include
+@mixin cardStyles($bgColorCard,$colorCard,$bradiusCard,$bColorCard,$bsColorCard) {
+    background-color: $bgColorCard;
+    color: $colorCard;
+    border-radius: $bradiusCard;
+    border-color: $bColorCard;
+    box-shadow: 15px 15px 15px $bsColorCard; 
+}
+
+.htmlDiv,.jsDiv{
+    @include cardStyles(#859398, black,25px,#bdc3c7, #2c3e50);
+
+}
+.cssDiv,.bsDiv  {
+    @include cardStyles(#283048, white,25px,#bdc3c7, #2c3e50);
+
+}
+
+// MONGODB EXPRESSJS REACTJS NODEJS - Extend/Inheritance
+%cardsMERNDiv {
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 25px
+
+}
+.mongoDB,.react {
+@extend %cardsMERNDiv;
+background-color: #283048;
+}
+.express,.node {
+    @extend %cardsMERNDiv;
+    background-color: #859398;
+}
+
+// SKILL CARDS CSS ENDS
+
+// FOOTER CSS STARTS
+footer {
+    background: $secondaryColor;
+}
+
+// FOOTER CSS ENDS

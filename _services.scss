@@ -1,0 +1,45 @@
+$bgColor : #bdc3c7;
+$bglgColor : linear-gradient(to right, #bdc3c7, #2c3e50);
+$fontFamilyComfortaa : "Comfortaa", sans-serif;
+$fontWeight : 900;
+$secondaryColor :#2c3e50;
+$colorHover :#bdc3c7;
+
+body {
+    background: $bglgColor;
+    // font-family: $fontFamilyHachiMaruPop;
+    // font-weight: $fontWeight;
+    // font-style: normal;
+}
+nav {
+    padding: 20px;
+}
+.headingTwoServices {
+    padding: 10px;
+    margin: 10px;
+}
+.card img {
+    width: 100%;
+    height: 50px;
+    margin: 20px;
+}
+.skillTabDiv {
+    margin: 20px;
+    padding: 10px;
+}
+.nav-tabs .nav-link {
+    background-color: $secondaryColor;
+    color:white;
+}
+
+  .nav-tabs .nav-link.active {
+    background: $colorHover;
+  }
+  .card {
+    padding: 10px;
+    background: $bglgColor;
+  }
+  .card-body {
+    border-radius: 5px;
+    padding: 15px;
+  }

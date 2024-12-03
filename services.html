@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title> 
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Services Page NAVIGATION -->
+      <nav class="serviceNav">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="">contact us</a></li>
+        </ul>
+      </nav>      
+
+      <!-- SKILL SERVICES DIV -->
+      <div class="skillTabDiv">
+        <!-- Services HEADING -->
+        <h1 class="headingOneServices">Services :</h1>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="html-tab" data-bs-toggle="tab" data-bs-target="#html" type="button" role="tab" aria-controls="home" aria-selected="true">HTML</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="css-tab" data-bs-toggle="tab" data-bs-target="#css" type="button" role="tab" aria-controls="profile" aria-selected="false">CSS</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="js-tab" data-bs-toggle="tab" data-bs-target="#js" type="button" role="tab" aria-controls="contact" aria-selected="false">JAVASCRIPT</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="bootstrap-tab" data-bs-toggle="tab" data-bs-target="#bootstrap" type="button" role="tab" aria-controls="home" aria-selected="true">BOOTSTRAP</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="mongoDB-tab" data-bs-toggle="tab" data-bs-target="#mongoDB" type="button" role="tab" aria-controls="profile" aria-selected="false">MONGODB</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="expressJS-tab" data-bs-toggle="tab" data-bs-target="#expressJS" type="button" role="tab" aria-controls="contact" aria-selected="false">EXPRESSJS</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="react-tab" data-bs-toggle="tab" data-bs-target="#react" type="button" role="tab" aria-controls="profile" aria-selected="false">REACTJS</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="node-tab" data-bs-toggle="tab" data-bs-target="#node" type="button" role="tab" aria-controls="contact" aria-selected="false">NODEJS</button>
+            </li>
+        </ul>        
+        <div class="tab-content" id="myTabContent">
+            <!-- HTML TAB -->
+            <div class="tab-pane fade show active b-0" id="html" role="tabpanel" aria-labelledby="html-tab">                    
+              <div class="card d-flex flex-row align-items-center">
+                <div class="card-body">
+                  <h1 class="card-title">HTML (HyperText Markup Language)</h1>
+                  <p class="card-text">
+                    <h5>HTML :</h5>
+                    <p><strong>What it is:</strong> The standard markup language for creating the structure of web pages.</p>
+                    <p><strong>Purpose:</strong> Defines the layout of a web page using elements like headings, paragraphs, images, and links.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Tags (<code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;div&gt;</code>) to structure content.</li>
+                        <li>Attributes (<code>id</code>, <code>class</code>, <code>href</code>) for adding metadata and styles.</li>
+                        <li>Semantic elements (<code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code>) for better SEO and accessibility.</li>
+                    </ul>
+                  </p>
+                </div>
+                <img src="./images/html-5.png" class="card-img-right img-fluid w-25 h-auto" alt="html-5">
+              </div>
+            </div>
+            <!-- CSS TAB -->
+            <div class="tab-pane fade" id="css" role="tabpanel" aria-labelledby="css-tab">
+              <div class="card d-flex flex-row align-items-center">
+                <div class="card-body">
+                  <h1 class="card-title">CSS (Cascading Style Sheets)</h1>
+                  <p class="card-text">
+                    <h5>CSS :</h5>
+                    <p><strong>What it is:</strong> A style sheet language used for describing the presentation of a web page.</p>
+                    <p><strong>Purpose:</strong> Controls the layout, colors, fonts, and responsiveness of web pages.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Styling rules for elements (<code>color: red;</code>, <code>font-size: 16px;</code>).</li>
+                        <li>Selectors (<code>.class</code>, <code>#id</code>, <code>element</code>) to target elements.</li>
+                        <li>Media queries for responsive design.</li>
+                    </ul>
+                  </p>
+                </div>
+                <img src="./images/css3.png" class="card-img-right img-fluid w-25 h-auto" alt="css3">
+              </div>
+            </div>
+            <!-- JAVASCRIPT TAB -->
+            <div class="tab-pane fade" id="js" role="tabpanel" aria-labelledby="js-tab">
+              <div class="card d-flex flex-row align-items-center">
+                <div class="card-body">
+                  <h1 class="card-title">JavaScript (JS)</h1>
+                  <p class="card-text">
+                    <h5>JS :</h5>
+                    <p><strong>What it is:</strong> A programming language for creating dynamic and interactive web content.</p>
+                    <p><strong>Purpose:</strong> Adds functionality like animations, form validation, and fetching data from APIs.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Event-driven programming (e.g., button clicks).</li>
+                        <li>DOM manipulation for dynamic content.</li>
+                        <li>ES6+ features like <code>let</code>, <code>const</code>, arrow functions, and async/await.</li>
+                    </ul>
+                  </p>
+                </div>
+                <img src="./images/js.png" class="card-img-right img-fluid w-25 h-auto" alt="javaScript">
+              </div>
+            </div>
+            <!-- BOOTSTRAP TAB -->
+            <div class="tab-pane fade" id="bootstrap" role="tabpanel" aria-labelledby="bootstrap-tab">
+              <div class="card d-flex flex-row align-items-center">
+                <div class="card-body">
+                  <h1 class="card-title">Bootstrap</h1>
+                  <p class="card-text">
+                    <h5>Bootstrap :</h5>
+                    <p><strong>What it is:</strong> A popular front-end framework for building responsive and mobile-first websites.</p>
+                    <p><strong>Purpose:</strong> Simplifies web development with pre-designed components and a responsive grid system.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Components like navbars, carousels, and modals.</li>
+                        <li>A 12-column grid system for layout design.</li>
+                        <li>Customizable via SASS variables.</li>
+                    </ul>
+                  </p>
+                </div>
+                <img src="./images/bootstrap.png" class="card-img-right img-fluid w-25 h-auto" alt="bootstrap">
+              </div>
+            </div>
+            <!-- MONGODB TAB -->
+            <div class="tab-pane fade" id="mongoDB" role="tabpanel" aria-labelledby="mongoDB-tab">
+              <div class="card d-flex flex-row align-items-center">
+                <div class="card-body">
+                  <h1 class="card-title">MongoDB</h1>
+                  <p class="card-text">
+                    <h5>MongoDB :</h5>
+                    <p><strong>What it is:</strong> A NoSQL database that stores data in a flexible, JSON-like format.</p>
+                    <p><strong>Purpose:</strong> Handles large amounts of unstructured or semi-structured data.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Document-based storage (collections and documents).</li>
+                        <li>Schema-less, allowing flexibility in data structure.</li>
+                        <li>Querying with MongoDB Query Language (MQL).</li>
+                    </ul>
+                  </p>
+                </div>
+                <img src="./images/mongodb.png" class="card-img-right img-fluid w-25 h-auto" alt="mongodb">
+              </div>
+            </div>            
+            <!-- EXPRESSJS TAB -->
+            <div class="tab-pane fade" id="expressJS" role="tabpanel" aria-labelledby="expressJS-tab">
+              <div class="card d-flex flex-row align-items-center">
+                <div class="card-body">
+                  <h1 class="card-title">Express.js</h1>
+                  <p class="card-text">
+                    <h5>Express.js :</h5>
+                    <p><strong>What it is:</strong> A lightweight, flexible Node.js framework for building web applications and APIs.</p>
+                    <p><strong>Purpose:</strong> Simplifies server-side development with routing and middleware.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Middleware for processing requests and responses.</li>
+                        <li>RESTful API creation.</li>
+                        <li>Integration with databases like MongoDB.</li>
+                    </ul>
+                  </p>
+                </div>
+                <img src="./images/express.png" class="card-img-right img-fluid w-25 h-auto" alt="express">
+              </div>            
+            </div>
+            <!-- REACTJS TAB -->
+            <div class="tab-pane fade" id="react" role="tabpanel" aria-labelledby="react-tab">
+              <div class="card d-flex flex-row align-items-center">
+                <div class="card-body">
+                  <h1 class="card-title">React.js</h1>
+                  <p class="card-text">
+                    <h5>React.js :</h5>
+                    <p><strong>What it is:</strong> A JavaScript library for building user interfaces, especially for single-page applications (SPAs).</p>
+                    <p><strong>Purpose:</strong> Manages the view layer and allows the creation of reusable UI components.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Component-based architecture.</li>
+                        <li>Virtual DOM for efficient rendering.</li>
+                        <li>Hooks like <code>useState</code> and <code>useEffect</code>.</li>
+                    </ul>
+                  </p>
+                </div>
+                <img src="./images/react.png" class="card-img-right img-fluid w-25 h-auto" alt="react">
+              </div>
+            </div>
+            <!-- NODEJS TAB -->
+            <div class="tab-pane fade" id="node" role="tabpanel" aria-labelledby="node-tab">
+              <div class="card d-flex flex-row align-items-center">
+                <div class="card-body">
+                  <h1 class="card-title">Node.js</h1>
+                  <p class="card-text">
+                    <h5>Node.js :</h5>
+                    <p><strong>What it is:</strong> A JavaScript runtime built on Chrome's V8 engine.</p>
+                    <p><strong>Purpose:</strong> Allows JavaScript to run on the server side for building scalable network applications.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Asynchronous, event-driven architecture.</li>
+                        <li>Built-in modules for file handling, networking, and more.</li>
+                        <li>Package management using npm (Node Package Manager).</li>
+                    </ul> 
+                  </p>
+                </div>
+                <img src="./images/nodejs.png" class="card-img-right img-fluid w-25 h-auto" alt="nodejs">
+              </div>
+            </div>
+        </div>
+      </div>  
+    <!-- FOOTER DIV -->
+    <footer class="container-fluid p-2">
+        <div class="d-flex justify-content-center mb-3">
+          <nav class="nav">
+            <a class="nav-link text-light" href="./index.html">Home</a>
+            <a class="nav-link text-light" href="#">About</a>
+            <a class="nav-link text-light" href="#">Blog</a>
+            <a class="nav-link text-light" href="./services.html">Services</a>
+            <a class="nav-link text-light" href="#">Contact us</a>
+          </nav>
+        </div>
+        <hr class="mx-auto" style="width: 80%;">
+        <p class="text-center mt-3">© 2024 DSMV Company, Inc</p>
+    </footer>   
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

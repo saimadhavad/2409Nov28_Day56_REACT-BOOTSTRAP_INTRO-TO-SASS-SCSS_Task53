@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+body {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+nav {
+  padding: 20px;
+}
+
+.headingTwoServices {
+  padding: 10px;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 50px;
+  margin: 20px;
+}
+
+.skillTabDiv {
+  margin: 20px;
+  padding: 10px;
+}
+
+.nav-tabs .nav-link {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.nav-tabs .nav-link.active {
+  background: #bdc3c7;
+}
+
+.card {
+  padding: 10px;
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+.card-body {
+  border-radius: 5px;
+  padding: 15px;
+}
+
+* {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+.container {
+  margin: 10px auto;
+  width: 900px;
+  color: white;
+  padding: 10px;
+}
+
+.headingOne {
+  text-align: center;
+}
+
+.topNav, .serviceNav {
+  background: #2c3e50;
+  margin: 5px;
+}
+.topNav ul, .serviceNav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.topNav ul li, .serviceNav ul li {
+  display: inline-block;
+}
+.topNav ul a, .serviceNav ul a {
+  padding: 5px 25px;
+  max-width: 100%;
+  border-radius: 4px;
+  border: 0px;
+  color: white;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+}
+.topNav ul a:hover, .serviceNav ul a:hover {
+  background: #bdc3c7;
+  color: black;
+  font-weight: 800;
+}
+
+.carouselImg {
+  width: 100%;
+  height: 450px;
+}
+
+#carouselExampleAutoplaying {
+  padding: 5px;
+}
+
+.skillCardDiv {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.cardsDiv {
+  border: 2px solid;
+  padding: 20px;
+}
+
+.skillCardDivImg {
+  max-width: 75px;
+}
+
+.skillCardDiv a {
+  text-decoration: none;
+}
+
+.htmlDiv, .jsDiv {
+  background-color: #859398;
+  color: black;
+  border-radius: 25px;
+  border-color: #bdc3c7;
+  box-shadow: 15px 15px 15px #2c3e50;
+}
+
+.cssDiv, .bsDiv {
+  background-color: #283048;
+  color: white;
+  border-radius: 25px;
+  border-color: #bdc3c7;
+  box-shadow: 15px 15px 15px #2c3e50;
+}
+
+.express, .node, .mongoDB, .react {
+  border: 2px solid;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.mongoDB, .react {
+  background-color: #283048;
+}
+
+.express, .node {
+  background-color: #859398;
+}
+
+footer {
+  background: #2c3e50;
+}
+
+/*# sourceMappingURL=style.css.map */
